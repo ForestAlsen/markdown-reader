@@ -1,0 +1,48 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+build/
+web-build/
+
+# Expo
+.expo/
+expo-env.dts
+
+# database
+*.sqlite
+*.sqlite-journal
+
+# env
+.env
+.env.*
+.env*.local
+
+# debug logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# system files
+.DS_Store
+Thumbs.db
+*.pem
+
+# typescript
+*.tsbuildinfo
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# generated native folders
+/ios
+/android
+
+# claude code local
+.claude/
+
+# misc
+*.orig.*

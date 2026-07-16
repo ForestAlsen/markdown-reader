@@ -1,0 +1,13 @@
+{
+  "name": "markdown-reader",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "shared"
+  ],
+  "scripts": {
+    "dev:server": "npm --prefix server run start:dev",
+    "dev:mobile": "npm --prefix mobile run start",
+    "dev": "echo Use dev:server and dev:mobile in separate terminals"
+  }
+}
